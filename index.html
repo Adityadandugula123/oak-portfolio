@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya D | Portfolio - Senior Frontend Developer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Professional Frontend Developer portfolio of Aditya D. Specialize in HTML, CSS, JavaScript, Java, and modern web development. View my projects, skills, and certifications.">
+  <meta name="keywords" content="Frontend Developer, Aditya D, Portfolio, Web Developer, Java, JavaScript, Computer Science Engineer">
+  <meta name="author" content="Aditya D">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader" class="preloader">
+    <div class="preloader-content">
+      <div class="logo-spinner">
+        <span class="logo-text-animated">ADITYA</span>
+      </div>
+      <div class="loader-bar-container">
+        <div class="loader-bar"></div>
+      </div>
+      <p class="loader-status">Loading Portfolio...</p>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div id="custom-cursor" class="custom-cursor"></div>
+  <div id="custom-cursor-dot" class="custom-cursor-dot"></div>
+
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+  <!-- Sticky Navbar -->
+  <header id="header" class="navbar-header">
+    <div class="container nav-container">
+      <a href="#home" class="logo" id="logo">
+        <span class="logo-bracket">&lt;</span>Aditya Dandugula<span class="logo-bracket">/&gt;</span>
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#platforms" class="nav-link">Platforms</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Actions (Theme Toggle & Hamburger) -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle visual theme" title="Toggle Light/Dark Theme">
+          <i data-lucide="moon" class="theme-icon moon-icon"></i>
+          <i data-lucide="sun" class="theme-icon sun-icon"></i>
+        </button>
+
+        <button id="hamburger" class="hamburger-btn" aria-label="Open navigation menu" aria-expanded="false">
+          <span class="bar bar-top"></span>
+          <span class="bar bar-middle"></span>
+          <span class="bar bar-bottom"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Sidebar Overlay & Menu -->
+  <div id="mobile-menu-overlay" class="mobile-menu-overlay"></div>
+  <div id="mobile-menu-sidebar" class="mobile-menu-sidebar">
+    <div class="sidebar-header">
+      <div class="logo"><span class="logo-bracket">&lt;</span>Aditya Dandugula<span class="logo-bracket">/&gt;</span></div>
+      <button id="close-sidebar" class="close-sidebar-btn" aria-label="Close menu">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+    <ul class="sidebar-list">
+      <li><a href="#home" class="sidebar-link">Home</a></li>
+      <li><a href="#about" class="sidebar-link">About</a></li>
+      <li><a href="#skills" class="sidebar-link">Skills</a></li>
+      <li><a href="#projects" class="sidebar-link">Projects</a></li>
+      <li><a href="#education" class="sidebar-link">Education</a></li>
+      <li><a href="#certifications" class="sidebar-link">Certifications</a></li>
+      <li><a href="#platforms" class="sidebar-link">Platforms</a></li>
+      <li><a href="#contact" class="sidebar-link">Contact</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      <p class="sidebar-footer-text">Let's connect</p>
+      <div class="social-links-sidebar">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i data-lucide="github"></i></a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+        <a href="mailto:24x01a0596@nrcmec.org" class="social-icon" aria-label="Email"><i data-lucide="mail"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <!-- Animated background shapes -->
+    <div class="hero-bg-shapes">
+      <div class="floating-circle circle-1" data-parallax-speed="0.05"></div>
+      <div class="floating-circle circle-2" data-parallax-speed="-0.03"></div>
+      <div class="floating-circle circle-3" data-parallax-speed="0.02"></div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="hero-content" id="hero-content-anim">
+        <div class="hero-badge">
+          <span class="badge-dot animate-pulse-fast"></span>
+          Available for Internships
+        </div>
+        <h1 class="hero-title">
+          <span class="hero-greeting">Hi, I'm</span>
+          <span class="hero-name glow-text">Aditya Dandugula</span>
+        </h1>
+        <div class="hero-subtitle">
+          <span class="typing-prefix">I am a </span>
+          <span id="typing-text" class="typing-text"></span>
+          <span class="typing-cursor">|</span>
+        </div>
+        <p class="hero-desc">
+          Computer Science Engineering student specializing in building high-performance, pixel-perfect, and modern full-stack web architectures with responsive layouts.
+        </p>
+        
+        <div class="hero-tech-pills">
+          <span class="tech-pill"><i data-lucide="code"></i> Java</span>
+          <span class="tech-pill"><i data-lucide="terminal"></i> Python</span>
+          <span class="tech-pill"><i data-lucide="globe"></i> HTML/CSS</span>
+          <span class="tech-pill"><i data-lucide="cpu"></i> JavaScript</span>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary ripple-effect" id="btn-view-projects">
+            <span>View Projects</span>
+            <i data-lucide="arrow-right" class="btn-icon"></i>
+          </a>
+          <!-- CUSTOMIZATION GUIDE: Replace the 'href' below with the actual relative/absolute path of your resume PDF file (e.g. "/assets/resume.pdf") -->
+          <a href="afi.jpg" download="Aditya_Dandugula_Resume_Frontend_Angular_Ionic.pdf" class="btn btn-outline ripple-effect" id="btn-download-resume">
+            <i data-lucide="download" class="btn-icon"></i>
+            <span>Download Resume</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-graphic" id="hero-graphic-parallax">
+        <div class="graphic-frame">
+          <div class="graphic-glow"></div>
+          <img src="afi.jpg" alt="Aditya Dandugula - Frontend Developer Profile Avatar" class="profile-img" referrerPolicy="no-referrer">
+          <!-- Floating interactive widgets -->
+          <div class="floating-widget widget-1" data-parallax-speed="0.08">
+            <i data-lucide="code-2" class="widget-icon text-primary"></i>
+            <div class="widget-info">
+              <span class="widget-label">Web Development</span>
+              <span class="widget-val">Expert</span>
+            </div>
+          </div>
+          <div class="floating-widget widget-2" data-parallax-speed="-0.06">
+            <i data-lucide="award" class="widget-icon text-secondary"></i>
+            <div class="widget-info">
+              <span class="widget-label">DSA </span>
+              <span class="widget-val">Top </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <a href="#about" class="scroll-indicator" aria-label="Scroll to About Section">
+      <span class="scroll-mouse">
+        <span class="scroll-wheel"></span>
+      </span>
+      <span class="scroll-arrow"></span>
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section section-padding">
+    <div class="container">
+      <div class="section-header text-center" id="about-header-anim">
+        <span class="section-subtitle">Get To Know Me</span>
+        <h2 class="section-title">About Aditya Dandugula</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-info-card glass-card" id="about-info-anim">
+          <h3 class="about-heading"><i data-lucide="sparkles" class="text-secondary"></i> Professional Summary</h3>
+          <p class="about-paragraph">
+            I am a highly motivated Computer Science Engineering student with an outstanding academic record and a intense passion for frontend design patterns and digital experiences. My goal is to bridge the gap between robust system backends and beautiful, fast user interfaces.
+          </p>
+          <p class="about-paragraph">
+            With a firm grasp of both structural programming (Java, Python) and creative web technologies (HTML5, CSS3, ES6+ JavaScript), I build digital products that operate at 60fps, scale fluidly across device types, and satisfy recruiter standards.
+          </p>
+          
+          <h4 class="facts-subheading">Quick Facts</h4>
+          <div class="quick-facts-grid">
+            <div class="fact-item">
+              <span class="fact-label">Location:</span>
+              <span class="fact-val">Hyderabad, India</span>
+            </div>
+            <div class="fact-item">
+              <span class="fact-label">Education:</span>
+              <span class="fact-val">B.Tech in Computer Science Engineering</span>
+            </div>
+            <div class="fact-item">
+              <span class="fact-label">Academic Standing:</span>
+              <span class="fact-val">9.2 / 10 CGPA</span>
+            </div>
+            <div class="fact-item">
+              <span class="fact-label">Interests:</span>
+              <span class="fact-val">Competitive Coding, UI/UX Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-and-badges" id="about-stats-anim">
+          <!-- Animated Stats Grid -->
+          <div class="stats-grid" id="stats-section">
+            <div class="stat-card glass-card ripple-effect">
+              <div class="stat-icon-wrapper text-primary">
+                <i data-lucide="binary"></i>
+              </div>
+              <div class="stat-content">
+                <h3 class="stat-number" data-target="80">0</h3>
+                <p class="stat-label">DSA Problems Solved</p>
+              </div>
+            </div>
+
+            <div class="stat-card glass-card ripple-effect">
+              <div class="stat-icon-wrapper text-secondary">
+                <i data-lucide="folder-git-2"></i>
+              </div>
+              <div class="stat-content">
+                <h3 class="stat-number" data-target="5">3</h3>
+                <p class="stat-label">Completed Projects</p>
+              </div>
+            </div>
+
+            <div class="stat-card glass-card ripple-effect">
+              <div class="stat-icon-wrapper class-accent text-accent">
+                <i data-lucide="award"></i>
+              </div>
+              <div class="stat-content">
+                <h3 class="stat-number" data-target="4">9</h3>
+                <p class="stat-label">Certifications / Internships</p>
+              </div>
+            </div>
+
+            <div class="stat-card glass-card ripple-effect">
+              <div class="stat-icon-wrapper text-success">
+                <i data-lucide="graduation-cap"></i>
+              </div>
+              <div class="stat-content">
+                <h3 class="stat-number" data-target="9" data-decimals="1">9.0</h3>
+                <p class="stat-label">Cumulative CGPA</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick strengths list -->
+          <div class="strengths-card glass-card">
+            <h4 class="strengths-title">Core Strengths</h4>
+            <ul class="strengths-list">
+              <li><i data-lucide="check-circle-2" class="text-success"></i> Pixel-perfect responsive interface design</li>
+              <li><i data-lucide="check-circle-2" class="text-success"></i> Highly analytical data structures and algorithms solver</li>
+              <li><i data-lucide="check-circle-2" class="text-success"></i> Cross-browser styling with high optimization standards</li>
+              <li><i data-lucide="check-circle-2" class="text-success"></i> Fast learner, highly adaptable to team environments</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section section-padding">
+    <div class="container">
+      <div class="section-header text-center" id="skills-header-anim">
+        <span class="section-subtitle">My Toolbox</span>
+        <h2 class="section-title">Technical Expertise</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="skills-grid" id="skills-list-container">
+        <!-- Frontend Development -->
+        <div class="skill-category-card glass-card" id="skill-cat-1">
+          <div class="category-header text-primary">
+            <i data-lucide="layout-template" class="category-icon"></i>
+            <h3 class="category-title">Frontend Development</h3>
+          </div>
+          <div class="skills-list-wrapper">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML5</span>
+                <span class="skill-percentage" data-val="95">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar bg-primary" data-percentage="95"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">CSS3 & Grid/Flexbox</span>
+                <span class="skill-percentage" data-val="90">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar bg-primary" data-percentage="90"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Vanilla JavaScript (ES6+)</span>
+                <span class="skill-percentage" data-val="88">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar bg-primary" data-percentage="88"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Programming Languages -->
+        <div class="skill-category-card glass-card" id="skill-cat-2">
+          <div class="category-header text-secondary">
+            <i data-lucide="braces" class="category-icon"></i>
+            <h3 class="category-title">Programming</h3>
+          </div>
+          <div class="skills-list-wrapper">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Java (Core & OOPs)</span>
+                <span class="skill-percentage" data-val="85">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar bg-secondary" data-percentage="85"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Python Programming</span>
+                <span class="skill-percentage" data-val="80">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar bg-secondary" data-percentage="80"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">C Language</span>
+                <span class="skill-percentage" data-val="75">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar bg-secondary" data-percentage="75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Database Systems -->
+        <div class="skill-category-card glass-card" id="skill-cat-3">
+          <div class="category-header text-accent">
+            <i data-lucide="database" class="category-icon"></i>
+            <h3 class="category-title">Database Systems</h3>
+          </div>
+          <div class="skills-list-wrapper">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">MySQL (Structured Queries)</span>
+                <span class="skill-percentage" data-val="82">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar bg-accent" data-percentage="82"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">MongoDB (NoSQL)</span>
+                <span class="skill-percentage" data-val="70">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar bg-accent" data-percentage="70"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Development Tools -->
+        <div class="skill-category-card glass-card" id="skill-cat-4">
+          <div class="category-header text-success">
+            <i data-lucide="sliders" class="category-icon"></i>
+            <h3 class="category-title">Tools & Platforms</h3>
+          </div>
+          <div class="skills-list-wrapper">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Git Version Control</span>
+                <span class="skill-percentage" data-val="88">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar bg-success" data-percentage="88"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">GitHub Collaboration</span>
+                <span class="skill-percentage" data-val="85">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar bg-success" data-percentage="85"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">VS Code Workspace</span>
+                <span class="skill-percentage" data-val="92">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar bg-success" data-percentage="92"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section section-padding">
+    <div class="container">
+      <div class="section-header text-center" id="projects-header-anim">
+        <span class="section-subtitle">Showcase of Work</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="systems">Systems/Apps</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+        <!-- Project 1: Bus Management System -->
+        <div class="project-card glass-card" data-category="systems" id="project-card-1">
+          <div class="project-img-wrapper">
+            <img src="/assets/images/project_bus_1784474545786.jpg" alt="Bus Management System Thumbnail" class="project-img" referrerPolicy="no-referrer">
+            <div class="project-overlay">
+              <span class="project-cat">Desktop App / Java</span>
+            </div>
+          </div>
+          <div class="project-details">
+            <h3 class="project-title-text">Bus Management System</h3>
+            <p class="project-desc-short">
+              Comprehensive desktop utility for transport dispatch, live routing maps, passenger reservation tables, and transaction bookkeeping.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Swing</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">JDBC</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-sm btn-outline open-modal-btn" data-project-id="bus-system">
+                <i data-lucide="info"></i> Details
+              </button>
+              <div class="project-links-group" style="display: flex; gap: 8px; align-items: center;">
+                <a href="https://github.com/Adityadandugula123" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon-only" aria-label="GitHub Repository" title="GitHub Repository"><i data-lucide="github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Raksha (Women's Safety App) -->
+        <div class="project-card glass-card" data-category="web" id="project-card-2">
+          <div class="project-img-wrapper">
+            <img src="/assets/images/project_raksha_1784474559254.jpg" alt="Raksha Safety App Thumbnail" class="project-img" referrerPolicy="no-referrer">
+            <div class="project-overlay">
+              <span class="project-cat">Web Application</span>
+            </div>
+          </div>
+          <div class="project-details">
+            <h3 class="project-title-text">Raksha Safety App</h3>
+            <p class="project-desc-short">
+              An advanced real-time crisis emergency system. Includes instant SOS geoshare, high-frequency panic click trigger, and mock calls.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JS ES6</span>
+              <span class="tag">Geolocation</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-sm btn-outline open-modal-btn" data-project-id="raksha">
+                <i data-lucide="info"></i> Details
+              </button>
+              <div class="project-links-group" style="display: flex; gap: 8px; align-items: center;">
+                <a href="https://github.com/Adityadandugula123" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon-only" aria-label="GitHub Repository" title="GitHub Repository"><i data-lucide="github"></i></a>
+                <a href="https://fluffy-alpaca-4dca2d.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon-only" aria-label="Live Demo" title="Live Demo"><i data-lucide="external-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Interior Quotation System -->
+        <div class="project-card glass-card" data-category="web" id="project-card-3">
+          <div class="project-img-wrapper">
+            <img src="/assets/images/project_interior_1784474574005.jpg" alt="Interior Quotation System Thumbnail" class="project-img" referrerPolicy="no-referrer">
+            <div class="project-overlay">
+              <span class="project-cat">Business Utility</span>
+            </div>
+          </div>
+          <div class="project-details">
+            <h3 class="project-title-text">Interior Quotation System</h3>
+            <p class="project-desc-short">
+              A bespoke invoice generator for designers. Offers dynamic square-foot area computation, material filters, and PDF export tools.
+            </p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">CSS Grid</span>
+              <span class="tag">Local Storage</span>
+              <span class="tag">jsPDF</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-sm btn-outline open-modal-btn" data-project-id="interior">
+                <i data-lucide="info"></i> Details
+              </button>
+              <div class="project-links-group" style="display: flex; gap: 8px; align-items: center;">
+                <a href="https://github.com/Adityadandugula123" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon-only" aria-label="GitHub Repository" title="GitHub Repository"><i data-lucide="github"></i></a>
+                <a href="https://svs-interiors-quotation-system-836837675190.asia-southeast1.run.app/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon-only" aria-label="Live Demo" title="Live Demo"><i data-lucide="external-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Developer Portfolio Website -->
+        <div class="project-card glass-card" data-category="web" id="project-card-4">
+          <div class="project-img-wrapper">
+            <img src="https://picsum.photos/seed/portfolio/800/600" alt="Portfolio Website Thumbnail" class="project-img" referrerPolicy="no-referrer">
+            <div class="project-overlay">
+              <span class="project-cat">Interactive Portfolio</span>
+            </div>
+          </div>
+          <div class="project-details">
+            <h3 class="project-title-text">Aditya's Premium Portfolio</h3>
+            <p class="project-desc-short">
+              A high-performance modern developer portfolio. Designed with micro-animations, glassmorphism counters, and adaptive structures.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">Vanilla CSS</span>
+              <span class="tag">Vanilla JS</span>
+              <span class="tag">No-Framework</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-sm btn-outline open-modal-btn" data-project-id="portfolio">
+                <i data-lucide="info"></i> Details
+              </button>
+              <div class="project-links-group" style="display: flex; gap: 8px; align-items: center;">
+                <a href="https://github.com/Adityadandugula123" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon-only" aria-label="GitHub Repository" title="GitHub Repository"><i data-lucide="github"></i></a>
+                <a href="https://ais-pre-n64ydvmiimqzi723p6jpgt-33554624158.asia-east1.run.app" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon-only" aria-label="Live Demo" title="Live Demo"><i data-lucide="external-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Project Modal -->
+  <div id="project-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-wrapper">
+      <div class="modal-card glass-card">
+        <button id="close-modal" class="close-modal-btn" aria-label="Close modal window">
+          <i data-lucide="x"></i>
+        </button>
+        <div class="modal-layout">
+          <div class="modal-media">
+            <img id="modal-img" src="" alt="Detailed view of project" class="modal-featured-img" referrerPolicy="no-referrer">
+          </div>
+          <div class="modal-content-area">
+            <div class="modal-header-info">
+              <span id="modal-tag-category" class="modal-category">Web System</span>
+              <h3 id="modal-title" class="modal-title-text">Project Title</h3>
+            </div>
+            <div class="modal-body-scroll">
+              <h4 class="modal-subtitle-section">Project Overview</h4>
+              <p id="modal-desc-full" class="modal-paragraph">Detailed description of the project goes here.</p>
+              
+              <h4 class="modal-subtitle-section">Key Features</h4>
+              <ul id="modal-features-list" class="modal-list">
+                <!-- Injected via JavaScript -->
+              </ul>
+
+              <h4 class="modal-subtitle-section">Architecture & Technologies</h4>
+              <div id="modal-tech-stack" class="modal-tags-container">
+                <!-- Injected via JavaScript -->
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a id="modal-btn-github" href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <i data-lucide="github"></i> Repository
+              </a>
+              <a id="modal-btn-demo" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                <i data-lucide="external-link"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Education Section -->
+  <section id="education" class="education-section section-padding bg-dimmed">
+    <div class="container">
+      <div class="section-header text-center" id="education-header-anim">
+        <span class="section-subtitle">Academic Chronology</span>
+        <h2 class="section-title">My Education</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <!-- Modern Vertical Timeline -->
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+
+        <!-- Node 1: B.Tech CSE -->
+        <div class="timeline-item right-timeline" id="edu-item-1">
+          <div class="timeline-marker text-primary">
+            <i data-lucide="graduation-cap"></i>
+          </div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date"><i data-lucide="calendar"></i> 2023 - Expected 2028</span>
+            <h3 class="timeline-heading">Bachelor of Technology (B.Tech)</h3>
+            <h4 class="timeline-subheading text-primary">Computer Science & Engineering</h4>
+            <p class="timeline-desc">
+              Focusing heavily on Advanced Software Engineering, Object-Oriented Programming python,Java, Database Management, and Full-Stack Architecture. Maintain active participation in competitive coding clubs.
+            </p>
+            <div class="timeline-grade">
+              <span class="grade-label">Academic Record:</span>
+              <span class="grade-score text-primary">9.0 CGPA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Node 2: Intermediate -->
+        <div class="timeline-item left-timeline" id="edu-item-2">
+          <div class="timeline-marker text-secondary">
+            <i data-lucide="book-open"></i>
+          </div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date"><i data-lucide="calendar"></i> 2022 - 2024</span>
+            <h3 class="timeline-heading">Intermediate Education (Class XII)</h3>
+            <h4 class="timeline-subheading text-secondary">MPC (Mathematics, Physics, Chemistry)</h4>
+            <p class="timeline-desc">
+              Strong grounding in analytical mathematical models, physics mechanics, and logic gates. Developed secondary analytical tools during state academic showcases.
+            </p>
+            <div class="timeline-grade">
+              <span class="grade-label">Performance:</span>
+              <span class="grade-score text-secondary">95.0% Marks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Node 3: SSC -->
+        <div class="timeline-item right-timeline" id="edu-item-3">
+          <div class="timeline-marker text-accent">
+            <i data-lucide="award"></i>
+          </div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date"><i data-lucide="calendar"></i> 2022</span>
+            <h3 class="timeline-heading">Secondary School Certificate (CBSE)</h3>
+            <h4 class="timeline-subheading text-accent">High School Curriculum</h4>
+            <p class="timeline-desc">
+              First-class distinction. Discovered an initial interest in computing systems and procedural calculations, leading to the pursuit of Computer Science Engineering.
+            </p>
+            <div class="timeline-grade">
+              <span class="grade-label">percentage:</span>
+              <span class="grade-score text-accent">90%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Achievements Sections -->
+  <section id="certifications" class="certifications-section section-padding">
+    <div class="container">
+      <div class="section-header text-center" id="certs-header-anim">
+        <span class="section-subtitle">Endorsed Capabilities</span>
+        <h2 class="section-title">Certifications & Achievements</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="certs-achievements-layout">
+        <!-- Certifications Column -->
+        <div class="certs-column" id="certs-column-anim">
+          <h3 class="col-heading"><i data-lucide="award" class="text-secondary"></i> Professional Certifications</h3>
+          
+          <div class="certs-grid">
+            <!-- Cert 1 -->
+            <div class="cert-card glass-card ripple-effect">
+              <div class="cert-icon-box">
+                <i data-lucide="scroll-text" class="text-primary"></i>
+              </div>
+              <div class="cert-info-box">
+                <h4 class="cert-name-text">Java Programming </h4>
+                <p class="cert-provider">NPTEL</p>
+                <span class="cert-meta"><i data-lucide="calendar"></i> Dec 2025</span>
+                <button class="btn btn-text-link view-cert-mock" data-title="Java Programming Masterclass" data-org="Oracle / Udemy" data-date="Dec 2025">
+                  View Certificate <i data-lucide="external-link" class="link-icon"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Cert 2 -->
+            <div class="cert-card glass-card ripple-effect">
+              <div class="cert-icon-box">
+                <i data-lucide="scroll-text" class="text-secondary"></i>
+              </div>
+              <div class="cert-info-box">
+                <h4 class="cert-name-text">Advanced Frontend CSS & JS Algorithms</h4>
+                <p class="cert-provider">HAckerRank</p>
+                <span class="cert-meta"><i data-lucide="calendar"></i> Aug 2025</span>
+                <button class="btn btn-text-link view-cert-mock" data-title="Advanced Frontend CSS & JS Algorithms" data-org="Meta / Coursera" data-date="Aug 2025">
+                  View Certificate <i data-lucide="external-link" class="link-icon"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Cert 3 -->
+            <div class="cert-card glass-card ripple-effect">
+              <div class="cert-icon-box">
+                <i data-lucide="scroll-text" class="text-accent"></i>
+              </div>
+              <div class="cert-info-box">
+                <h4 class="cert-name-text">Programming in C</h4>
+                <p class="cert-provider">NPTEL</p>
+                <span class="cert-meta"><i data-lucide="calendar"></i> May 2025</span>
+                <button class="btn btn-text-link view-cert-mock" data-title="Relational SQL & Query Tuning" data-org="Stanford University Online" data-date="May 2025">
+                  View Certificate <i data-lucide="external-link" class="link-icon"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Achievements Column -->
+        <div class="achievements-column" id="achievements-column-anim">
+          <h3 class="col-heading"><i data-lucide="star" class="text-accent"></i> Academic Milestones</h3>
+
+          <div class="achievements-grid">
+            <!-- Achievement 1 -->
+            <div class="achievement-card glass-card">
+              <div class="ach-badge-wrapper bg-gradient-primary">
+                <i data-lucide="code-2"></i>
+              </div>
+              <div class="ach-details">
+                <h4 class="ach-title-text">LeetCode & HackerRank Milestone</h4>
+                <p class="ach-desc">
+                  Solved 80+ coding challenges across multiple data structures and algorithms, maintaining an active consistent badge record.
+                </p>
+              </div>
+            </div>
+
+            <!-- Achievement 2 -->
+            <div class="achievement-card glass-card">
+              <div class="ach-badge-wrapper bg-gradient-secondary">
+                <i data-lucide="trophy"></i>
+              </div>
+              <div class="ach-details">
+                <h4 class="ach-title-text">College CSI President</h4>
+                <p class="ach-desc">
+                  Leading the Computer Society of India club in college with active participation and conducting various hackathons and technical events. Recently conduucted the CSI annual excellence awards function.
+                </p>
+              </div>
+            </div>
+
+            <!-- Achievement 3 -->
+            <div class="achievement-card glass-card">
+              <div class="ach-badge-wrapper bg-gradient-accent">
+                <i data-lucide="users-2"></i>
+              </div>
+              <div class="ach-details">
+                <h4 class="ach-title-text">CSI Student Representative</h4>
+                <p class="ach-desc">
+                  Elected as student volunteer leader in Computer Society of India (CSI), successfully managing academic hackathons.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coding Platforms & Socials Section -->
+  <section id="platforms" class="platforms-section section-padding bg-dimmed">
+    <div class="container">
+      <div class="section-header text-center" id="platforms-header-anim">
+        <span class="section-subtitle">Competitive Coding & Networks</span>
+        <h2 class="section-title">Coding Platforms & Socials</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="platforms-grid stagger-anim reveal-up">
+        <!-- LinkedIn - CUSTOMIZATION GUIDE: Replace the 'href' below with your actual LinkedIn profile link -->
+        <a href="www.linkedin.com/in/aditya-dandugula-313ab5247" target="_blank" rel="noopener noreferrer" class="platform-card glass-card ripple-effect" id="platform-linkedin">
+          <div class="platform-icon-box text-secondary">
+            <i data-lucide="linkedin"></i>
+          </div>
+          <h3 class="platform-name">LinkedIn</h3>
+          <p class="platform-desc">Connect with me for professional networking, internship opportunities, and industry collaborations.</p>
+          <div class="platform-action">
+            <span>Connect Now</span>
+            <i data-lucide="arrow-up-right"></i>
+          </div>
+        </a>
+
+        <!-- GitHub - CUSTOMIZATION GUIDE: Replace the 'href' below with your actual GitHub profile link -->
+        <a href="https://github.com/Adityadandugula123" target="_blank" rel="noopener noreferrer" class="platform-card glass-card ripple-effect" id="platform-github">
+          <div class="platform-icon-box text-primary">
+            <i data-lucide="github"></i>
+          </div>
+          <h3 class="platform-name">GitHub</h3>
+          <p class="platform-desc">Explore my open-source projects, system designs, and frontend development repositories.</p>
+          <div class="platform-action">
+            <span>Explore Repos</span>
+            <i data-lucide="arrow-up-right"></i>
+          </div>
+        </a>
+
+        <!-- LeetCode - CUSTOMIZATION GUIDE: Replace the 'href' below with your actual LeetCode profile link -->
+        <a href="https://leetcode.com/u/DandugulaAditya/" target="_blank" rel="noopener noreferrer" class="platform-card glass-card ripple-effect" id="platform-leetcode">
+          <div class="platform-icon-box text-accent">
+            <i data-lucide="terminal"></i>
+          </div>
+          <h3 class="platform-name">LeetCode</h3>
+          <p class="platform-desc">150+ solved challenges across various arrays, strings, and OOPs concepts in Java and Python.</p>
+          <div class="platform-action">
+            <span>View Profile</span>
+            <i data-lucide="arrow-up-right"></i>
+          </div>
+        </a>
+
+        <!-- HackerRank - CUSTOMIZATION GUIDE: Replace the 'href' below with your actual HackerRank profile link -->
+        <a href="https://www.hackerrank.com/profile/adiTFHFu4" target="_blank" rel="noopener noreferrer" class="platform-card glass-card ripple-effect" id="platform-hackerrank">
+          <div class="platform-icon-box text-success">
+            <i data-lucide="trophy"></i>
+          </div>
+          <h3 class="platform-name">HackerRank</h3>
+          <p class="platform-desc">Gold badge holder in Problem Solving and Java. Actively refining algorithmic logic.</p>
+          <div class="platform-action">
+            <span>View Profile</span>
+            <i data-lucide="arrow-up-right"></i>
+          </div>
+        </a>
+
+        <!-- GeeksforGeeks - CUSTOMIZATION GUIDE: Replace the 'href' below with your actual GeeksforGeeks profile link -->
+        <a href="https://www.geeksforgeeks.org/profile/adityadandr4nt" target="_blank" rel="noopener noreferrer" class="platform-card glass-card ripple-effect" id="platform-geeks">
+          <div class="platform-icon-box text-warning">
+            <i data-lucide="braces"></i>
+          </div>
+          <h3 class="platform-name">GeeksforGeeks</h3>
+          <p class="platform-desc">Comprehensive practice repository of standard data structures, algorithms, and SQL queries.</p>
+          <div class="platform-action">
+            <span>View Profile</span>
+            <i data-lucide="arrow-up-right"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certification Zoom Mock Modal -->
+  <div id="cert-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-wrapper cert-modal-wrapper">
+      <div class="modal-card cert-modal-card glass-card">
+        <button id="close-cert-modal" class="close-modal-btn" aria-label="Close certification modal">
+          <i data-lucide="x"></i>
+        </button>
+        <div class="cert-modal-body">
+          <div class="cert-visual-container">
+            <div class="cert-border-accent">
+              <div class="cert-inner-layout">
+                <div class="cert-badge-gold">★ CERTIFIED ★</div>
+                <h3 class="cert-main-title">Certificate of Achievement</h3>
+                <p class="cert-sub">This verifies that</p>
+                <h4 class="cert-recipient">ADITYA DANDUGULA</h4>
+                <p class="cert-sub">has completed the program</p>
+                <h5 id="zoom-cert-title" class="cert-class-title">Program Title</h5>
+                <div class="cert-meta-row">
+                  <div>
+                    <span class="cert-meta-label">Provider:</span>
+                    <span id="zoom-cert-org" class="cert-meta-val">Organization</span>
+                  </div>
+                  <div>
+                    <span class="cert-meta-label">Date:</span>
+                    <span id="zoom-cert-date" class="cert-meta-val">Date</span>
+                  </div>
+                </div>
+                <div class="cert-signatures">
+                  <div class="sig-line">
+                    <span class="signature-font">Aditya Dandugula</span>
+                    <span class="sig-label">Authorized Signature</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section section-padding bg-dimmed">
+    <div class="container">
+      <div class="section-header text-center" id="contact-header-anim">
+        <span class="section-subtitle">Reach Out</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Information Block -->
+        <div class="contact-info-column" id="contact-info-anim">
+          <div class="contact-card glass-card">
+            <h3 class="contact-card-title"><i data-lucide="mail-check" class="text-primary"></i> Chat or Call</h3>
+            <p class="contact-card-desc">
+              I am actively seeking professional frontend development internships and junior engineering roles. Let's build something exceptional together.
+            </p>
+
+            <div class="contact-details-list">
+              <div class="contact-detail-item">
+                <div class="detail-icon bg-gradient-primary">
+                  <i data-lucide="mail"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Direct Mail</span>
+                  <a href="mailto:24x01a0596@nrcmec.org" class="detail-value">24x01a0596@nrcmec.org</a>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon bg-gradient-secondary">
+                  <i data-lucide="phone"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Phone Support</span>
+                  <a href="tel:+919876543210" class="detail-value">+91 98765 43210</a>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon bg-gradient-accent">
+                  <i data-lucide="map-pin"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Current Location</span>
+                  <span class="detail-value">Hyderabad, Telangana, India</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-channels">
+              <h4 class="channels-title">Find Me Online</h4>
+              <div class="channels-grid">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="channel-link glass-card text-primary" aria-label="GitHub">
+                  <i data-lucide="github"></i>
+                  <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="channel-link glass-card text-secondary" aria-label="LinkedIn">
+                  <i data-lucide="linkedin"></i>
+                  <span>LinkedIn</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form Block -->
+        <div class="contact-form-column" id="contact-form-anim">
+          <form id="contact-form" class="contact-form glass-card" novalidate>
+            <h3 class="form-title-text">Send a Message</h3>
+            
+            <div class="input-row-grid">
+              <!-- Name Input -->
+              <div class="input-field-group">
+                <label for="contact-name" class="field-label">Full Name</label>
+                <div class="input-wrapper">
+                  <i data-lucide="user" class="input-icon"></i>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="Enter your name" required>
+                </div>
+                <span class="field-error-msg" id="error-name">This field is required</span>
+              </div>
+
+              <!-- Email Input -->
+              <div class="input-field-group">
+                <label for="contact-email" class="field-label">Email Address</label>
+                <div class="input-wrapper">
+                  <i data-lucide="at-sign" class="input-icon"></i>
+                  <input type="email" id="contact-email" name="email" class="form-input" placeholder="name@example.com" required>
+                </div>
+                <span class="field-error-msg" id="error-email">Please enter a valid email address</span>
+              </div>
+            </div>
+
+            <!-- Subject Input -->
+            <div class="input-field-group">
+              <label for="contact-subject" class="field-label">Subject</label>
+              <div class="input-wrapper">
+                <i data-lucide="text-quote" class="input-icon"></i>
+                <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="Project inquiry / Internship offer" required>
+              </div>
+              <span class="field-error-msg" id="error-subject">Please enter a subject</span>
+            </div>
+
+            <!-- Message Input -->
+            <div class="input-field-group">
+              <label for="contact-message" class="field-label">Your Message</label>
+              <div class="input-wrapper align-start">
+                <i data-lucide="message-square" class="input-icon icon-shifted"></i>
+                <textarea id="contact-message" name="message" class="form-input form-textarea" placeholder="How can I help you?" required></textarea>
+              </div>
+              <span class="field-error-msg" id="error-message">Message body cannot be empty</span>
+            </div>
+
+            <button type="submit" id="submit-btn" class="btn btn-primary btn-full ripple-effect">
+              <span>Send Secure Message</span>
+              <i data-lucide="send" class="btn-icon"></i>
+            </button>
+          </form>
+
+          <!-- Glassmorphism Success Overlay Animation -->
+          <div id="form-success-overlay" class="form-success-overlay">
+            <div class="success-card glass-card text-center">
+              <div class="success-icon-wrapper bg-gradient-success">
+                <i data-lucide="check-check"></i>
+              </div>
+              <h3 class="success-title">Message Delivered!</h3>
+              <p class="success-desc">
+                Thank you. Your message has been safely encrypted and sent to Aditya Dandugula. He will review your inquiry within 24 hours.
+              </p>
+              <button id="dismiss-success" class="btn btn-sm btn-outline">Send another message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-area">
+    <div class="container">
+      <div class="footer-top-row">
+        <div class="footer-brand">
+          <div class="logo"><span class="logo-bracket">&lt;</span>Aditya Dandugula<span class="logo-bracket">/&gt;</span></div>
+          <p class="brand-tagline">Crafting modern, beautiful, and fluid digital experiences with pristine standards.</p>
+        </div>
+        <ul class="footer-links-list">
+          <li><a href="#home" class="footer-link-item">Home</a></li>
+          <li><a href="#about" class="footer-link-item">About</a></li>
+          <li><a href="#skills" class="footer-link-item">Skills</a></li>
+          <li><a href="#projects" class="footer-link-item">Projects</a></li>
+          <li><a href="#education" class="footer-link-item">Education</a></li>
+          <li><a href="#contact" class="footer-link-item">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-separator"></div>
+
+      <div class="footer-bottom-row">
+        <p class="copyright-text">
+          &copy; 2026 Aditya Dandugula. All rights reserved. Built with pride using <strong>vanilla HTML, CSS, &amp; JS</strong>.
+        </p>
+        <div class="social-links-footer">
+          <!-- CUSTOMIZATION GUIDE: Replace the links and email below with your real information -->
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i data-lucide="github"></i></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+          <a href="mailto:Adityadandugula123@gmail.com" class="social-icon" aria-label="Email"><i data-lucide="mail"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Back to top" title="Scroll up">
+    <i data-lucide="chevrons-up"></i>
+  </button>
+
+  <!-- Vanilla JavaScript Source -->
+  <script type="module" src="/script.js"></script>
+</body>
+</html>
